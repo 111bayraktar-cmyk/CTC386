@@ -1,11 +1,14 @@
 
-#ibayraktar8.py
-#Option 5 will call a function you defined at the beginning of your program. The function will have the following requirements.
+#ibayraktar10.py
+#The sixth option for your menu will be a custom option of your choosing 
+#with the following requirements.
 
-#Ask the user to enter the current temperature in Fahrenheit.
-#Calculate what the value is in Celsius.
-#Display the result.
-#Formula for the conversion is °C = [°F - 32] × (5/9)
+#Include a loop.
+#Include a conditional statement.
+#Include user input.
+#Include a function.
+#Push your final project to your GitHub account from the class server.
+
 
 name = input ("What is your name: ")
 print  ("Menu")
@@ -18,7 +21,7 @@ print ("Option 5")
 print ("Option 6")
 print ("-------***--------")
 print ("Hello", name)
-option = int(input("enter a number to choose an option:"))
+option = int(input("Enter a number to choose an option:"))
 if (option==1):
     print ("What did 0 told to 8? Nice belt!")
 elif (option==2):
