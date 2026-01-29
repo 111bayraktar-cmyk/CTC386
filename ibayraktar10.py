@@ -9,7 +9,16 @@
 #Include a function.
 #Push your final project to your GitHub account from the class server.
 
+def temp1(x):
+        temp2=((x-32)*5/9)
+        return temp2
 
+def song():
+                print ("Happy birthday to you,")
+                print ("Happy birthday to you,")
+                print ("Happy birthday to you dear",name)
+                print ("Happy birthday to you,")
+                print (" ")
 name = input ("What is your name: ")
 print  ("Menu")
 print ("------***---------")
@@ -46,9 +55,6 @@ elif (option==4):
             print ("Congrats, you guess the right number!")        
           
 elif (option==5):
-    def temp1(x):
-        temp2=((x-32)*5/9)
-        return temp2
     y=float(input("Enter the current temperature in Fahreneit:"))
     output = temp1(y)
     print ("The temperature in Celcius is ", output)
@@ -64,12 +70,6 @@ elif (option==6):
             print ("Your birthday is not yet!")
         elif (month==1):
             print ("It is time to sing your birthday song!")
-            def song():
-                print ("Happy birthday to you,")
-                print ("Happy birthday to you,")
-                print ("Happy birthday to you dear",name)
-                print ("Happy birthday to you,")
-                print (" ")
             for i in range(2):
                 song()
         print("Good bye") 
